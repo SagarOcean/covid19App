@@ -21,7 +21,7 @@ public class DetailActivity extends AppCompatActivity {
         Intent intent = getIntent();
         positionCountry = intent.getIntExtra("position",0);
 
-        getSupportActionBar().setTitle("Details Of "+AffectedCountries.countryModelList.get(positionCountry).getCountry());
+        getSupportActionBar().setTitle("Details Of "+AffectedCountries.countryModelList.get(positionCountry).getCountry()+" Country...");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
